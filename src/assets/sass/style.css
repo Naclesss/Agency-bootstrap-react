@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.custom-toggler {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-nav a {
+  margin-right: 35px;
+  color: white;
+  font-size: 18px;
+}
+.navbar-nav a:hover {
+  color: #ffc800 !important;
+}
+
+.navbar-nav a,
+.hero {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.hero {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 60px;
+}
+.hero .hero-content span {
+  font-size: 36px;
+}
+.hero .hero-content h1 {
+  font-size: 72px;
+}
+.hero .hero-content button {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ffc800;
+  padding: 20px 40px;
+}
+
+.service {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s;
+}
+.service:hover {
+  transform: scale(1.05);
+}
+.service h3 {
+  margin: 16px 0px;
+  font-size: 30px;
+}
+.service p {
+  color: #6c757d;
+  margin: 0px 0px 16px;
+}
+.service i {
+  color: white;
+  font-size: 65px;
+  background-color: #ffc800;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolios {
+  font-family: "Montserrat", sans-serif !important;
+}
+.portfolios .portfolio-content {
+  text-align: center;
+  padding: 20px;
+  background-color: white !important;
+}
+.portfolios .portfolio-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.portfolios .portfolio-content p {
+  color: #6c757d;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.member {
+  margin-bottom: 48px;
+}
+.member img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+}
+.member .member-info {
+  margin-top: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.member .member-info p {
+  color: #6c757d;
+  margin-top: 5px;
+  font-weight: 450;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+.contact i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #212529;
+}
+
+.our-team-section span {
+  color: #6c757d;
+}
+
+.contacts {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+  background-color: #212529;
+}
+.contacts button {
+  background-color: #ffc800;
+  opacity: 0.65;
+  padding: 1.25rem 2.5rem;
+  font-weight: 700;
+}
+.contacts input::-moz-placeholder, .contacts textarea::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da !important;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.contacts input,
+.contacts textarea,
+.contacts input::placeholder,
+.contacts textarea::placeholder {
+  font-weight: 700;
+  color: #ced4da !important;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.contacts input {
+  height: 10vh;
+}
+.contacts textarea {
+  height: 36.2vh;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 45px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 953px) {
+  .hero-content h1 {
+    font-size: 55px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
